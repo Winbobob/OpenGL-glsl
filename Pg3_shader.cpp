@@ -79,7 +79,7 @@ int lineNum(char file[])
 	int n=0;				//line number
 	while(!infile.eof())
 	{
-		infile.getline(str, sizeof(str));//The default identifier for termination is¡®\n¡¯
+		infile.getline(str, sizeof(str));//The default identifier for termination isâ€˜\nâ€™
 		n++;
 	}
 	 return n; 
@@ -202,7 +202,7 @@ void readLights()
 	windowFile.close();
 }
 
-//¹âÕÕÓĞµãÎÊÌâ£¡£¡¶à¹âÔ´Ã»Ğ§¹û£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿£¿¼ÓÉÏToon shading ºÍ blinn-hong illuminµÄÎÄ×Ö
+
 
 bool loadPic(const char* path, unsigned char*& data, unsigned int& width, unsigned int& height,FREE_IMAGE_FORMAT& fif, int& bpp)
 {
